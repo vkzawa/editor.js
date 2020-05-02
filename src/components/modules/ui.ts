@@ -608,8 +608,8 @@ export default class UI extends Module {
       return;
     }
 
-    event.stopImmediatePropagation();
-    event.stopPropagation();
+    // event.stopImmediatePropagation();
+    // event.stopPropagation();
 
     /**
      * case when user clicks on anchor element
